@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ReefAngel Mobile ClientTests' target in the 'ReefAngel Mobile ClientTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
