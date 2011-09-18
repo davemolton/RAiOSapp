@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		55236719135F4DD00067FFD9 /* tableViewCellInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 55236718135F4DD00067FFD9 /* tableViewCellInput.m */; };
 		5523671B135F4E830067FFD9 /* tableViewCellInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5523671A135F4E830067FFD9 /* tableViewCellInput.xib */; };
+		559D7C5314265F080013DE21 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D7C4E14265F080013DE21 /* User.m */; };
+		559D7C5414265F080013DE21 /* WonderXMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D7C5014265F080013DE21 /* WonderXMLAppDelegate.m */; };
+		559D7C5514265F080013DE21 /* WonderXMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D7C5214265F080013DE21 /* WonderXMLViewController.m */; };
 		559DB80014257084004EC75A /* bluebutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DB7FB14257084004EC75A /* bluebutton1.png */; };
 		559DB80114257084004EC75A /* labelBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DB7FC14257084004EC75A /* labelBG.png */; };
 		559DB80214257084004EC75A /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DB7FD14257084004EC75A /* refresh.png */; };
@@ -30,9 +33,6 @@
 		55C73960135A4BCE007AE60B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7395F135A4BCE007AE60B /* SystemConfiguration.framework */; };
 		55C73962135A4BD9007AE60B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C73961135A4BD9007AE60B /* MobileCoreServices.framework */; };
 		55C73964135A4C1F007AE60B /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C73963135A4C1F007AE60B /* libz.1.2.3.dylib */; };
-		55C7396B135B478C007AE60B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C73966135B478C007AE60B /* User.m */; };
-		55C7396C135B478C007AE60B /* WonderXMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C73968135B478C007AE60B /* WonderXMLAppDelegate.m */; };
-		55C7396D135B478C007AE60B /* WonderXMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7396A135B478C007AE60B /* WonderXMLViewController.m */; };
 		55C73978135B48CF007AE60B /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7396F135B48CF007AE60B /* GDataXMLNode.m */; };
 		55C73979135B48CF007AE60B /* TypeMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C73971135B48CF007AE60B /* TypeMapping.m */; };
 		55C7397A135B48CF007AE60B /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C73973135B48CF007AE60B /* Util.m */; };
@@ -71,6 +71,12 @@
 		55236717135F4DD00067FFD9 /* tableViewCellInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewCellInput.h; sourceTree = "<group>"; };
 		55236718135F4DD00067FFD9 /* tableViewCellInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewCellInput.m; sourceTree = "<group>"; };
 		5523671A135F4E830067FFD9 /* tableViewCellInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tableViewCellInput.xib; sourceTree = "<group>"; };
+		559D7C4D14265F080013DE21 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		559D7C4E14265F080013DE21 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		559D7C4F14265F080013DE21 /* WonderXMLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WonderXMLAppDelegate.h; sourceTree = "<group>"; };
+		559D7C5014265F080013DE21 /* WonderXMLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WonderXMLAppDelegate.m; sourceTree = "<group>"; };
+		559D7C5114265F080013DE21 /* WonderXMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WonderXMLViewController.h; sourceTree = "<group>"; };
+		559D7C5214265F080013DE21 /* WonderXMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WonderXMLViewController.m; sourceTree = "<group>"; };
 		559DB7FB14257084004EC75A /* bluebutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluebutton1.png; path = images/bluebutton1.png; sourceTree = SOURCE_ROOT; };
 		559DB7FC14257084004EC75A /* labelBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = labelBG.png; path = images/labelBG.png; sourceTree = SOURCE_ROOT; };
 		559DB7FD14257084004EC75A /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = images/refresh.png; sourceTree = SOURCE_ROOT; };
@@ -107,12 +113,6 @@
 		55C7395F135A4BCE007AE60B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		55C73961135A4BD9007AE60B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		55C73963135A4C1F007AE60B /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
-		55C73965135B478C007AE60B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../../../Development/wonderxml/Classes/User.h; sourceTree = "<group>"; };
-		55C73966135B478C007AE60B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../../../Development/wonderxml/Classes/User.m; sourceTree = "<group>"; };
-		55C73967135B478C007AE60B /* WonderXMLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WonderXMLAppDelegate.h; path = ../../../Development/wonderxml/Classes/WonderXMLAppDelegate.h; sourceTree = "<group>"; };
-		55C73968135B478C007AE60B /* WonderXMLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WonderXMLAppDelegate.m; path = ../../../Development/wonderxml/Classes/WonderXMLAppDelegate.m; sourceTree = "<group>"; };
-		55C73969135B478C007AE60B /* WonderXMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WonderXMLViewController.h; path = ../../../Development/wonderxml/Classes/WonderXMLViewController.h; sourceTree = "<group>"; };
-		55C7396A135B478C007AE60B /* WonderXMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WonderXMLViewController.m; path = ../../../Development/wonderxml/Classes/WonderXMLViewController.m; sourceTree = "<group>"; };
 		55C7396E135B48CF007AE60B /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = ../../../Development/wonderxml/GDataXMLNode.h; sourceTree = "<group>"; };
 		55C7396F135B48CF007AE60B /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = ../../../Development/wonderxml/GDataXMLNode.m; sourceTree = "<group>"; };
 		55C73970135B48CF007AE60B /* TypeMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeMapping.h; path = ../../../Development/wonderxml/TypeMapping.h; sourceTree = "<group>"; };
@@ -205,6 +205,12 @@
 		55C73917135A4865007AE60B /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
+				559D7C4D14265F080013DE21 /* User.h */,
+				559D7C4E14265F080013DE21 /* User.m */,
+				559D7C4F14265F080013DE21 /* WonderXMLAppDelegate.h */,
+				559D7C5014265F080013DE21 /* WonderXMLAppDelegate.m */,
+				559D7C5114265F080013DE21 /* WonderXMLViewController.h */,
+				559D7C5214265F080013DE21 /* WonderXMLViewController.m */,
 				55C7396E135B48CF007AE60B /* GDataXMLNode.h */,
 				55C7396F135B48CF007AE60B /* GDataXMLNode.m */,
 				55C73970135B48CF007AE60B /* TypeMapping.h */,
@@ -215,12 +221,6 @@
 				55C73975135B48CF007AE60B /* XmlHeaderHelper.m */,
 				55C73976135B48CF007AE60B /* XmlParser.h */,
 				55C73977135B48CF007AE60B /* XmlParser.m */,
-				55C73965135B478C007AE60B /* User.h */,
-				55C73966135B478C007AE60B /* User.m */,
-				55C73967135B478C007AE60B /* WonderXMLAppDelegate.h */,
-				55C73968135B478C007AE60B /* WonderXMLAppDelegate.m */,
-				55C73969135B478C007AE60B /* WonderXMLViewController.h */,
-				55C7396A135B478C007AE60B /* WonderXMLViewController.m */,
 				55C73934135A4941007AE60B /* Reachability.h */,
 				55C73935135A4941007AE60B /* Reachability.m */,
 				55C73918135A4936007AE60B /* ASIAuthenticationDialog.h */,
@@ -459,9 +459,6 @@
 				55C73932135A4936007AE60B /* ASIInputStream.m in Sources */,
 				55C73933135A4936007AE60B /* ASINetworkQueue.m in Sources */,
 				55C73936135A4941007AE60B /* Reachability.m in Sources */,
-				55C7396B135B478C007AE60B /* User.m in Sources */,
-				55C7396C135B478C007AE60B /* WonderXMLAppDelegate.m in Sources */,
-				55C7396D135B478C007AE60B /* WonderXMLViewController.m in Sources */,
 				55C73978135B48CF007AE60B /* GDataXMLNode.m in Sources */,
 				55C73979135B48CF007AE60B /* TypeMapping.m in Sources */,
 				55C7397A135B48CF007AE60B /* Util.m in Sources */,
@@ -469,6 +466,9 @@
 				55C7397C135B48CF007AE60B /* XmlParser.m in Sources */,
 				55C73981135BDA9A007AE60B /* SecondViewController.m in Sources */,
 				55236719135F4DD00067FFD9 /* tableViewCellInput.m in Sources */,
+				559D7C5314265F080013DE21 /* User.m in Sources */,
+				559D7C5414265F080013DE21 /* WonderXMLAppDelegate.m in Sources */,
+				559D7C5514265F080013DE21 /* WonderXMLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
